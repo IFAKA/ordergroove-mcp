@@ -1,6 +1,6 @@
 # Ordergroove MCP Server
 
-🚀 **Easy-to-use MCP server for Ordergroove documentation** - Access comprehensive Ordergroove docs directly in Cursor with powerful search, file access, and intelligent prompts.
+🚀 **Easy-to-use MCP server for Ordergroove documentation** - Access comprehensive Ordergroove docs directly in Cursor or VS Code with powerful search, file access, and intelligent prompts.
 
 ## 📋 Table of Contents
 
@@ -25,14 +25,16 @@
 - **📁 File Access** - Read specific documentation files
 - **💡 Intelligent Prompts** - Pre-built prompts for common tasks
 - **🔧 Easy Setup** - One-command installation and configuration
-- **🎯 Cursor Integration** - Seamless integration with Cursor IDE
+- **🎯 IDE Integration** - Seamless integration with Cursor IDE and VS Code
 - **📚 Comprehensive Coverage** - Full Ordergroove documentation access
 
 ## 🚀 Quick Start (5 minutes)
 
 ### Prerequisites
 - **Node.js 18+** - [Download here](https://nodejs.org/)
-- **Cursor IDE** - [Download here](https://cursor.sh/)
+- **IDE** - Choose one:
+  - **Cursor IDE** - [Download here](https://cursor.sh/) (Recommended)
+  - **VS Code** - [Download here](https://code.visualstudio.com/) with GitHub Copilot access
 
 ### Option 1: Automated Setup (Recommended)
 ```bash
@@ -46,12 +48,32 @@ cd ordergroove-mcp
 # Install globally
 ./install.sh
 
-# Configure Cursor (safely adds to existing config)
-./configure-cursor.sh
+# Configure your IDE
+./configure-cursor.sh  # For Cursor IDE
+# OR follow VS Code setup below
 
 # Test the integration
 npm test
 ```
+
+### IDE-Specific Setup
+
+#### For Cursor IDE
+```bash
+# Configure Cursor (safely adds to existing config)
+./configure-cursor.sh
+```
+
+#### For VS Code
+1. **Open Command Palette** (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux)
+2. **Type and select** `MCP: Add Server`
+3. **Choose transport method**: Standard Input/Output (stdio)
+4. **Enter server details**:
+   - **Command**: `ordergroove-mcp`
+   - **Name**: `ordergroove-mcp`
+5. **Start the server**:
+   - Command Palette → `MCP: List Servers`
+   - Select `ordergroove-mcp` → `Start Server`
 
 ### Option 2: Manual Setup
 ```bash
@@ -81,7 +103,7 @@ npm start
 npm run dev
 ```
 
-### Example Queries in Cursor
+### Example Queries in Your IDE
 - "Search Ordergroove documentation for subscription information"
 - "Show me the subscription manager API reference"
 - "How do I implement cart offers?"
@@ -107,7 +129,9 @@ MCP_OG_HTTP_PORT=3000
 MCP_OG_HTTP_HOST=localhost
 ```
 
-### Cursor Integration
+### IDE Integration
+
+#### Cursor IDE Configuration
 **Safe Configuration (Recommended):**
 ```bash
 ./configure-cursor.sh
@@ -128,8 +152,28 @@ Add to your `~/.cursor/mcp.json`:
 }
 ```
 
+#### VS Code Configuration
+VS Code uses its built-in MCP interface instead of JSON configuration files:
+
+1. **Add MCP Server**:
+   - Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
+   - Type `MCP: Add Server`
+   - Select **Standard Input/Output (stdio)**
+   - Command: `ordergroove-mcp`
+   - Name: `ordergroove-mcp`
+
+2. **Start Server**:
+   - Command Palette → `MCP: List Servers`
+   - Select `ordergroove-mcp` → `Start Server`
+
+3. **Verify Installation**:
+   - Check that the server appears in the MCP servers list
+   - Test with a query like "Search Ordergroove documentation"
+
 ### Advanced Configuration
-For multiple environments or custom settings:
+
+#### Cursor IDE Advanced Configuration
+For multiple environments or custom settings in Cursor:
 
 ```json
 {
@@ -154,6 +198,13 @@ For multiple environments or custom settings:
   }
 }
 ```
+
+#### VS Code Advanced Configuration
+VS Code handles environment variables through the MCP server interface. You can set environment variables by:
+
+1. **Using a wrapper script** that sets environment variables before starting the MCP server
+2. **Setting system environment variables** before launching VS Code
+3. **Using VS Code's integrated terminal** with pre-configured environment variables
 
 ## 🛠️ Available Tools
 
@@ -225,9 +276,18 @@ For multiple environments or custom settings:
 - Rebuild search index: `npm run index:md`
 - Check if `data/index/` files exist
 
-**Cursor integration issues**
+**IDE integration issues**
+
+*Cursor IDE:*
 - Verify `~/.cursor/mcp.json` exists and is valid JSON
 - Restart Cursor after configuration changes
+- Check if `ordergroove-mcp` command is available globally
+
+*VS Code:*
+- Ensure you have GitHub Copilot access enabled
+- Check that MCP support is enabled in VS Code settings (`chat.mcp.enabled`)
+- Verify the MCP server appears in `MCP: List Servers`
+- Restart VS Code after adding the MCP server
 - Check if `ordergroove-mcp` command is available globally
 
 **Permission errors**
@@ -337,7 +397,7 @@ MIT License - see LICENSE file for details
 
 ## 🎉 You're Ready!
 
-You now have a fully functional Ordergroove MCP Server integrated with Cursor. You can:
+You now have a fully functional Ordergroove MCP Server integrated with your IDE (Cursor or VS Code). You can:
 
 - **Search** Ordergroove documentation instantly
 - **Access** specific files and sections

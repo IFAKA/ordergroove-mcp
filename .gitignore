@@ -55,6 +55,7 @@ jspm_packages/
 
 # IDE files
 .vscode/
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
@@ -70,11 +71,7 @@ ehthumbs.db
 Thumbs.db
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?

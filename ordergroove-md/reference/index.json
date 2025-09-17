@@ -1,0 +1,592 @@
+[
+  {
+    "name": "Ordergroove RestRPC",
+    "sections": [
+      {
+        "name": "Introduction",
+        "href": "https://developer.ordergroove.com/reference/introduction",
+        "articles": []
+      },
+      {
+        "name": "URLs",
+        "href": "https://developer.ordergroove.com/reference/urls",
+        "articles": []
+      },
+      {
+        "name": "Authentication",
+        "href": "https://developer.ordergroove.com/reference/authentication",
+        "articles": []
+      },
+      {
+        "name": "API Rate Limits",
+        "href": "https://developer.ordergroove.com/reference/ordergroove-api-rate-limits",
+        "articles": []
+      },
+      {
+        "name": "API Pagination",
+        "href": "https://developer.ordergroove.com/reference/pagination",
+        "articles": []
+      },
+      {
+        "name": "Webhooks Overview",
+        "href": "https://developer.ordergroove.com/reference/webhooks-overview",
+        "articles": [
+          {
+            "name": "Events and Payloads",
+            "href": "https://developer.ordergroove.com/reference/events-and-payloads"
+          },
+          {
+            "name": "Troubleshooting Webhooks",
+            "href": "https://developer.ordergroove.com/reference/troubleshooting-webhooks"
+          },
+          {
+            "name": "Configuring Your Server for Ordergroove Webhooks",
+            "href": "https://developer.ordergroove.com/reference/configuring-your-server-for-ordergroove-webhooks"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Subscriptions",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Cancel",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-cancel",
+        "articles": []
+      },
+      {
+        "name": "Change Quantity",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-change-quantity",
+        "articles": []
+      },
+      {
+        "name": "Change Shipping Address",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-change-shipping-address",
+        "articles": []
+      },
+      {
+        "name": "Change Payment",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-change-payment",
+        "articles": []
+      },
+      {
+        "name": "Change Email Reminder",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-change-email-reminder",
+        "articles": []
+      },
+      {
+        "name": "Change Frequency",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-change-frequency",
+        "articles": []
+      },
+      {
+        "name": "Reactivate",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-reactivate",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-update",
+        "articles": []
+      },
+      {
+        "name": "Create in Order",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-create-in-order",
+        "articles": []
+      },
+      {
+        "name": "Create From Item",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-create-from-item",
+        "articles": []
+      },
+      {
+        "name": "Change Product",
+        "href": "https://developer.ordergroove.com/reference/subscriptions-change-product",
+        "articles": []
+      },
+      {
+        "name": "Change Next Order Date",
+        "href": "https://developer.ordergroove.com/reference/change-next-order-date",
+        "articles": []
+      },
+      {
+        "name": "Retrieve Rotating Ordinal Subscription Context",
+        "href": "https://developer.ordergroove.com/reference/retrieve-ordinal-subscription-context",
+        "articles": []
+      },
+      {
+        "name": "Set Subscription Ordinal for Rotating Product",
+        "href": "https://developer.ordergroove.com/reference/set-subscription-ordinal-for-rotation-product",
+        "articles": []
+      },
+      {
+        "name": "Prepaid subscriptions",
+        "href": "https://developer.ordergroove.com/reference/prepaid-subscriptions",
+        "articles": [
+          {
+            "name": "Update Prepaid Subscription",
+            "href": "https://developer.ordergroove.com/reference/update-prepaid-subscription-context"
+          },
+          {
+            "name": "Change Prepaid Renewal Behavior",
+            "href": "https://developer.ordergroove.com/reference/change-prepaid-subscription-renewal-behavior"
+          },
+          {
+            "name": "Upgrade Subscription To Prepaid",
+            "href": "https://developer.ordergroove.com/reference/upgrade-to-prepaid-subscription"
+          }
+        ]
+      },
+      {
+        "name": "Bundle Components",
+        "href": "https://developer.ordergroove.com/reference/bundle-components",
+        "articles": [
+          {
+            "name": "Retrieve Component",
+            "href": "https://developer.ordergroove.com/reference/retrieve-component"
+          },
+          {
+            "name": "Update Components",
+            "href": "https://developer.ordergroove.com/reference/update-components"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orders",
+    "sections": [
+      {
+        "name": "Order Status Codes",
+        "href": "https://developer.ordergroove.com/reference/order-status-codes",
+        "articles": []
+      },
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/orders-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/orders-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Cancel",
+        "href": "https://developer.ordergroove.com/reference/orders-cancel",
+        "articles": []
+      },
+      {
+        "name": "Send Now",
+        "href": "https://developer.ordergroove.com/reference/orders-send-now",
+        "articles": []
+      },
+      {
+        "name": "Change Shipping Address",
+        "href": "https://developer.ordergroove.com/reference/orders-change-shipping-address",
+        "articles": []
+      },
+      {
+        "name": "Change Payment",
+        "href": "https://developer.ordergroove.com/reference/orders-change-payment",
+        "articles": []
+      },
+      {
+        "name": "Change Place Date",
+        "href": "https://developer.ordergroove.com/reference/orders-change-place-date",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/orders-update",
+        "articles": []
+      },
+      {
+        "name": "Skip Subscription",
+        "href": "https://developer.ordergroove.com/reference/skip-subscription",
+        "articles": []
+      },
+      {
+        "name": "Finalize processing Order",
+        "href": "https://developer.ordergroove.com/reference/finalize-processing-order",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Items",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/items-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/items-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Change Quantity",
+        "href": "https://developer.ordergroove.com/reference/items-change-quantity",
+        "articles": []
+      },
+      {
+        "name": "Change Price",
+        "href": "https://developer.ordergroove.com/reference/items-change-price",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/items-create",
+        "articles": []
+      },
+      {
+        "name": "Create in Order",
+        "href": "https://developer.ordergroove.com/reference/items-create-in-order",
+        "articles": []
+      },
+      {
+        "name": "Delete",
+        "href": "https://developer.ordergroove.com/reference/items-delete",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/items-update",
+        "articles": []
+      },
+      {
+        "name": "Product Change",
+        "href": "https://developer.ordergroove.com/reference/product-change",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Customers",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/customers-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/customers-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/customers-create",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/update",
+        "articles": []
+      },
+      {
+        "name": "Set Contact Details",
+        "href": "https://developer.ordergroove.com/reference/customers-set-contact-details",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Merchant",
+    "sections": [
+      {
+        "name": "List Cancellation Reasons",
+        "href": "https://developer.ordergroove.com/reference/list-cancellation-reasons",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Addresses",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/addresses-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/addresses-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/addresses-create",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/addresses-update",
+        "articles": []
+      },
+      {
+        "name": "Use address for all",
+        "href": "https://developer.ordergroove.com/reference/use-address-for-all",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Payments",
+    "sections": [
+      {
+        "name": "Credit Card Types",
+        "href": "https://developer.ordergroove.com/reference/credit-card-types",
+        "articles": []
+      },
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/payments-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/payments-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/payments-create",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/payments-update",
+        "articles": []
+      },
+      {
+        "name": "Use payment for all",
+        "href": "https://developer.ordergroove.com/reference/use-payment-for-all",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Products",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/products-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/products-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Group Check",
+        "href": "https://developer.ordergroove.com/reference/products-group-check",
+        "articles": []
+      },
+      {
+        "name": "Relationships",
+        "href": "https://developer.ordergroove.com/reference/product-relationships",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/products-update",
+        "articles": []
+      },
+      {
+        "name": "Bulk Create",
+        "href": "https://developer.ordergroove.com/reference/bulk-create",
+        "articles": []
+      },
+      {
+        "name": "Bulk Update",
+        "href": "https://developer.ordergroove.com/reference/bulk-update",
+        "articles": []
+      },
+      {
+        "name": "Time-Window Rotating Product",
+        "href": "https://developer.ordergroove.com/reference/rotating-product",
+        "articles": [
+          {
+            "name": "Manage Time-Window Rotating Product",
+            "href": "https://developer.ordergroove.com/reference/manage-time-window-rotating-product"
+          }
+        ]
+      },
+      {
+        "name": "Ordinal Rotating Product",
+        "href": "https://developer.ordergroove.com/reference/ordinal-based-rotating-product",
+        "articles": [
+          {
+            "name": "Manage Ordinal Rotating Product",
+            "href": "https://developer.ordergroove.com/reference/manage-ordinal-rotating-product"
+          }
+        ]
+      },
+      {
+        "name": "Retrieve Rotating Delivery Product",
+        "href": "https://developer.ordergroove.com/reference/rotating-products",
+        "articles": []
+      },
+      {
+        "name": "Manage Digital Plan Product",
+        "href": "https://developer.ordergroove.com/reference/manage-digital-plan-product",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "PRODUCT GROUPS",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/product-groups-list",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/product-groups-create",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/product-groups-update",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "RESOURCES",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/resource-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/resource-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/resource-create",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/resource-update",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Offer Profile",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/offer-profile-list",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "One Time Incentives",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/otd-list",
+        "articles": []
+      },
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/otd-retrieve",
+        "articles": []
+      },
+      {
+        "name": "Create",
+        "href": "https://developer.ordergroove.com/reference/otd-create",
+        "articles": []
+      },
+      {
+        "name": "Update",
+        "href": "https://developer.ordergroove.com/reference/otd-update",
+        "articles": []
+      },
+      {
+        "name": "Delete",
+        "href": "https://developer.ordergroove.com/reference/otd-delete",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "1-click actions",
+    "sections": [
+      {
+        "name": "1-Click Delay",
+        "href": "https://developer.ordergroove.com/reference/1-click-delay",
+        "articles": []
+      },
+      {
+        "name": "1-Click Reactivate",
+        "href": "https://developer.ordergroove.com/reference/1-click-reactivate",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Composites (SC.ordergroove.com)",
+    "sections": [
+      {
+        "name": "Purchase POST",
+        "href": "https://developer.ordergroove.com/reference/purchase-post",
+        "articles": []
+      },
+      {
+        "name": "Purchase POST API",
+        "href": "https://developer.ordergroove.com/reference/purchase-post-api",
+        "articles": []
+      },
+      {
+        "name": "Purchase POST Status",
+        "href": "https://developer.ordergroove.com/reference/purchase-post-status",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Cart (om.ordergroove.com)",
+    "sections": [
+      {
+        "name": "Retrieve",
+        "href": "https://developer.ordergroove.com/reference/cart-retrieve",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "ENTITLEMENTS (ENTITLEMENTS-SERVICE.ORDERGROOVE.COM)",
+    "sections": [
+      {
+        "name": "List",
+        "href": "https://developer.ordergroove.com/reference/entitlements-list",
+        "articles": []
+      }
+    ]
+  }
+]

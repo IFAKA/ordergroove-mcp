@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "ordergroove-mcp": {
+      "command": "ordergroove-mcp",
+      "args": [],
+      "env": {
+        "MCP_OG_SEARCH_LIMIT": "50",
+        "MCP_OG_ENABLE_WRITE_OPS": "false"
+      }
+    },
+    "ordergroove-mcp-dev": {
+      "command": "ordergroove-mcp",
+      "args": [],
+      "env": {
+        "MCP_OG_DATA_DIR": "./data-dev",
+        "MCP_OG_SEARCH_LIMIT": "100",
+        "MCP_OG_ENABLE_WRITE_OPS": "true"
+      }
+    }
+  }
+}

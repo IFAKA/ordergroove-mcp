@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ordergroove-mcp": {
+      "command": "ordergroove-mcp",
+      "args": []
+    }
+  }
+}

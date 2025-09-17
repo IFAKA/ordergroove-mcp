@@ -1,0 +1,528 @@
+[
+  {
+    "name": "Ordergroove 101",
+    "sections": [
+      {
+        "name": "Developer Fundamentals",
+        "href": "https://developer.ordergroove.com/docs/developer-fundamentals",
+        "articles": [
+          {
+            "name": "Systems Landscape Map",
+            "href": "https://developer.ordergroove.com/docs/landscape-map"
+          },
+          {
+            "name": "Data model at a glance",
+            "href": "https://developer.ordergroove.com/docs/data-model-at-a-glance"
+          },
+          {
+            "name": "Subscription Creation via Purchase POST",
+            "href": "https://developer.ordergroove.com/docs/subscription-creation-via-purchase-post"
+          },
+          {
+            "name": "Recurring Order Placement",
+            "href": "https://developer.ordergroove.com/docs/recurring-order-placement"
+          },
+          {
+            "name": "Subscription Manager Tagging and Authentication",
+            "href": "https://developer.ordergroove.com/docs/subscription-manager-tagging-and-authentication"
+          },
+          {
+            "name": "Customer and Payment Updates",
+            "href": "https://developer.ordergroove.com/docs/customer-and-payment-updates"
+          }
+        ]
+      },
+      {
+        "name": "General FAQ",
+        "href": "https://developer.ordergroove.com/docs/general-faq",
+        "articles": []
+      },
+      {
+        "name": "Install Ordergroove on an Online Store 2.0 theme",
+        "href": "https://developer.ordergroove.com/docs/use-ordergroove-with-online-store-20",
+        "articles": [
+          {
+            "name": "Installing Ordergroove with App Embed",
+            "href": "https://developer.ordergroove.com/docs/installing-ordergroove-with-app-embed"
+          }
+        ]
+      },
+      {
+        "name": "Custom Platform and Headless Subscription Implementation",
+        "href": "https://developer.ordergroove.com/docs/integrating-with-a-custom-platform-1",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Program Migration",
+    "sections": [
+      {
+        "name": "Migrate my data to Ordergroove",
+        "href": "https://developer.ordergroove.com/docs/program-migration",
+        "articles": []
+      },
+      {
+        "name": "Self-serve migration guide",
+        "href": "https://developer.ordergroove.com/docs/view-self-serve-migration-guide",
+        "articles": []
+      },
+      {
+        "name": "Self-serve migration guide for Recharge",
+        "href": "https://developer.ordergroove.com/docs/self-serve-migration-guide-for-recharge",
+        "articles": []
+      },
+      {
+        "name": "Staged Migrations",
+        "href": "https://developer.ordergroove.com/docs/staged-migrations",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Syncing Ordergroove Data",
+    "sections": [
+      {
+        "name": "Sync Ordergroove Data into Internal Systems",
+        "href": "https://developer.ordergroove.com/docs/sync-ordergroove-data-into-internal-systems",
+        "articles": []
+      },
+      {
+        "name": "Sync Objects",
+        "href": "https://developer.ordergroove.com/docs/implement-custom-data-pipelines",
+        "articles": [
+          {
+            "name": "Implement Custom Data Pipelines",
+            "href": "https://developer.ordergroove.com/docs/implement-custom-data-pipelines"
+          },
+          {
+            "name": "Using Prebuilt Connectors",
+            "href": "https://developer.ordergroove.com/docs/using-prebuilt-connectors"
+          },
+          {
+            "name": "SFTP File Drops",
+            "href": "https://developer.ordergroove.com/docs/sftp-file-drops"
+          }
+        ]
+      },
+      {
+        "name": "Sync Events",
+        "href": "https://developer.ordergroove.com/docs/sync-events",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Product Catalog",
+    "sections": [
+      {
+        "name": "Offer Tagging",
+        "href": "https://developer.ordergroove.com/docs/offer-tagging",
+        "articles": []
+      },
+      {
+        "name": "Product Feed",
+        "href": "https://developer.ordergroove.com/docs/integrating-with-a-custom-platform",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Subscription Enrollment",
+    "sections": [
+      {
+        "name": "Getting started",
+        "href": "https://developer.ordergroove.com/docs/getting-started",
+        "articles": []
+      },
+      {
+        "name": "First Order Place Date control for Shopify Merchants",
+        "href": "https://developer.ordergroove.com/docs/first-order-place-date-control-for-shopify-merchants",
+        "articles": []
+      },
+      {
+        "name": "Showing Discounted Price",
+        "href": "https://developer.ordergroove.com/docs/showing-discounted-price-in-shopify",
+        "articles": []
+      },
+      {
+        "name": "Customizing the Initial Offer Incentive (IOI)",
+        "href": "https://developer.ordergroove.com/docs/customizing-the-initial-offer-incentive-ioi-using-shopify-scripts",
+        "articles": []
+      },
+      {
+        "name": "Free shipping on initial orders",
+        "href": "https://developer.ordergroove.com/docs/free-shipping-on-initial-orders-with-shopify-scripts",
+        "articles": []
+      },
+      {
+        "name": "Cart Opt-In Tagging",
+        "href": "https://developer.ordergroove.com/docs/shopify-cart-opt-in-tagging",
+        "articles": []
+      },
+      {
+        "name": "Tagging the Product Details Page (PDP)",
+        "href": "https://developer.ordergroove.com/docs/tagging-the-product-details-page-pdp",
+        "articles": []
+      },
+      {
+        "name": "Real Time Stock Update",
+        "href": "https://developer.ordergroove.com/docs/real-time-stock-update",
+        "articles": []
+      },
+      {
+        "name": "Add a subscription to cart",
+        "href": "https://developer.ordergroove.com/docs/modify-a-subscription-from-checkout-flow",
+        "articles": [
+          {
+            "name": "Offer Code Elements",
+            "href": "https://developer.ordergroove.com/docs/offer-code-elements"
+          },
+          {
+            "name": "Domain Objects",
+            "href": "https://developer.ordergroove.com/docs/domain-objects"
+          },
+          {
+            "name": "Helper Methods",
+            "href": "https://developer.ordergroove.com/docs/helper-methods"
+          }
+        ]
+      },
+      {
+        "name": "Add a subscription offer to quickview, homepage, or other areas of your site",
+        "href": "https://developer.ordergroove.com/docs/quickview-offers",
+        "articles": [
+          {
+            "name": "Tracking Affiliate Codes on Recurring Orders",
+            "href": "https://developer.ordergroove.com/docs/tracking-affiliate-codes-on-recurring-orders"
+          }
+        ]
+      },
+      {
+        "name": "Troubleshooting Cart Offers",
+        "href": "https://developer.ordergroove.com/docs/troubleshooting-cart-offers",
+        "articles": []
+      },
+      {
+        "name": "Modify a subscription from email and SMS",
+        "href": "https://developer.ordergroove.com/docs/modify-a-subscription-from-email-and-sms",
+        "articles": []
+      },
+      {
+        "name": "Advanced Offer Customizations & FAQ",
+        "href": "https://developer.ordergroove.com/docs/advanced-offer-customizations-faq",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Subscription Manager Overview",
+    "sections": [
+      {
+        "name": "Subscription Manager From The Customer's Perspective",
+        "href": "https://developer.ordergroove.com/docs/getting-started-1",
+        "articles": []
+      },
+      {
+        "name": "Tour of Subscription Manager v25",
+        "href": "https://developer.ordergroove.com/docs/tour-of-subscription-manager-v25",
+        "articles": [
+          {
+            "name": "Intro to v25 for Developers transitioning from v0",
+            "href": "https://developer.ordergroove.com/docs/intro-to-v25-for-developers-transitioning-from-v0"
+          },
+          {
+            "name": "Customizing calendars and dates in v25",
+            "href": "https://developer.ordergroove.com/docs/customizing-calendars-and-dates-in-v25"
+          },
+          {
+            "name": "Understanding Subscription Manager Custom Elements",
+            "href": "https://developer.ordergroove.com/docs/understanding-subscription-manager-custom-elements"
+          }
+        ]
+      },
+      {
+        "name": "Subscription Manager File Descriptions",
+        "href": "https://developer.ordergroove.com/docs/subscription-manager-file-descriptions",
+        "articles": []
+      },
+      {
+        "name": "Subscription Manager v0 Components & Containers",
+        "href": "https://developer.ordergroove.com/docs/subscription-manager-components-containers",
+        "articles": [
+          {
+            "name": "Subscription Manager Templates",
+            "href": "https://developer.ordergroove.com/docs/subscription-manager-templates"
+          },
+          {
+            "name": "Orders Unsent Section",
+            "href": "https://developer.ordergroove.com/docs/orders-unsent-section"
+          },
+          {
+            "name": "Orders Processing Section",
+            "href": "https://developer.ordergroove.com/docs/orders-processing-section"
+          },
+          {
+            "name": "Inactive Subscriptions Section",
+            "href": "https://developer.ordergroove.com/docs/inactive-subscriptions-section"
+          }
+        ]
+      },
+      {
+        "name": "Customize your Subscription Manager templates without breaking tracking",
+        "href": "https://developer.ordergroove.com/docs/sm-template-customization-tracking",
+        "articles": []
+      },
+      {
+        "name": "Subscription Manager Templates Changelog",
+        "href": "https://developer.ordergroove.com/docs/subscription-manager-templates-changelog",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Subscription Manager Modifications",
+    "sections": [
+      {
+        "name": "Subscription Manager Development Overview",
+        "href": "https://developer.ordergroove.com/docs/subscription-manager-overview",
+        "articles": [
+          {
+            "name": "Edit Code with the Advanced Editor",
+            "href": "https://developer.ordergroove.com/docs/edit-code-with-the-advanced-editor"
+          },
+          {
+            "name": "Subscription Manager Theme Editor Overview",
+            "href": "https://developer.ordergroove.com/docs/subscription-manager-theme-editor-overview"
+          },
+          {
+            "name": "Subscription Manager Development Guide",
+            "href": "https://developer.ordergroove.com/docs/subscription-manager-development-guide"
+          },
+          {
+            "name": "Customizing Subscription Manager Sections on Shopify",
+            "href": "https://developer.ordergroove.com/docs/customizing-subscription-manager-sections-on-shopify"
+          },
+          {
+            "name": "Refreshing data in the Subscription Manager",
+            "href": "https://developer.ordergroove.com/docs/refreshing-data-in-the-subscription-manager"
+          },
+          {
+            "name": "Objects",
+            "href": "https://developer.ordergroove.com/docs/objects"
+          },
+          {
+            "name": "Object Reference",
+            "href": "https://developer.ordergroove.com/docs/object-reference"
+          },
+          {
+            "name": "Translations",
+            "href": "https://developer.ordergroove.com/docs/translations"
+          },
+          {
+            "name": "Subscription Manager Local Development",
+            "href": "https://developer.ordergroove.com/docs/subscription-manager-local-development"
+          },
+          {
+            "name": "Debugging with Redux",
+            "href": "https://developer.ordergroove.com/docs/debugging-with-redux"
+          },
+          {
+            "name": "Working with dates in the Subscription Manager",
+            "href": "https://developer.ordergroove.com/docs/working-with-dates-in-the-subscription-manager"
+          }
+        ]
+      },
+      {
+        "name": "Modify the Change Billing Process Button",
+        "href": "https://developer.ordergroove.com/docs/modify-the-change-billing-process-button",
+        "articles": []
+      },
+      {
+        "name": "Implementing Country & State Dropdown in Subscription Manager Themes",
+        "href": "https://developer.ordergroove.com/docs/implementing-country-state-dropdown-in-subscription-manager-themes",
+        "articles": []
+      },
+      {
+        "name": "Adding a Cancel Button to Modals",
+        "href": "https://developer.ordergroove.com/docs/adding-a-cancel-button-to-modals",
+        "articles": []
+      },
+      {
+        "name": "Limiting Future Dates in the Change Date Calendar",
+        "href": "https://developer.ordergroove.com/docs/limiting-future-dates-in-the-change-date-calendar",
+        "articles": []
+      },
+      {
+        "name": "Dynamic Shipping Restrictions in the Subscription Manager",
+        "href": "https://developer.ordergroove.com/docs/dynamic-shipping-restrictions-in-the-subscription-manager",
+        "articles": []
+      },
+      {
+        "name": "One Time SKU Swap Configuration in the Subscription Manager",
+        "href": "https://developer.ordergroove.com/docs/one-time-sku-swap-configuration-in-the-subscription-manager",
+        "articles": []
+      },
+      {
+        "name": "Adding a Scrollbar to Inactive Subscriptions in the Subscription Manager",
+        "href": "https://developer.ordergroove.com/docs/adding-a-scrollbar-to-inactive-subscriptions-in-the-subscription-manager",
+        "articles": []
+      },
+      {
+        "name": "Enabling Payment Updates for Shopify New Accounts",
+        "href": "https://developer.ordergroove.com/docs/enabling-payment-updates-for-shopify-new-accounts",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Subscription Manager Development with APIs",
+    "sections": [
+      {
+        "name": "Calling Ordergroove’s REST APIs from within Subscription Manager",
+        "href": "https://developer.ordergroove.com/docs/call-rest-apis-from-within-subscription-manager",
+        "articles": []
+      },
+      {
+        "name": "Integrating External APIs in the Subscription Manager",
+        "href": "https://developer.ordergroove.com/docs/integrating-external-apis-in-the-subscription-manager",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Tagging Subscription Manager",
+    "sections": [
+      {
+        "name": "Tagging the Subscription Manager",
+        "href": "https://developer.ordergroove.com/docs/tagging-the-subscription-manager-on-shopify",
+        "articles": []
+      },
+      {
+        "name": "Convert your customers/account page to support Online Store 2.0",
+        "href": "https://developer.ordergroove.com/docs/convert-your-customersaccount-page-to-support-online-store-20",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Upsell and 1-Click",
+    "sections": [
+      {
+        "name": "Instant Upsell Overview",
+        "href": "https://developer.ordergroove.com/docs/getting-started-2",
+        "articles": [
+          {
+            "name": "Instant Upsell through API",
+            "href": "https://developer.ordergroove.com/docs/add-a-one-time-item-to-an-upcoming-order"
+          }
+        ]
+      },
+      {
+        "name": "1-Click Actions in Emails",
+        "href": "https://developer.ordergroove.com/docs/1-click-actions-in-emails",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "Subscription Types",
+    "sections": [
+      {
+        "name": "Bundle Subscriptions",
+        "href": "https://developer.ordergroove.com/docs/bundle-subscriptions",
+        "articles": [
+          {
+            "name": "Configuring Bundles",
+            "href": "https://developer.ordergroove.com/docs/configuring-bundles"
+          },
+          {
+            "name": "Box Subscription Creation on Shopify",
+            "href": "https://developer.ordergroove.com/docs/box-subscription-creation-on-shopify"
+          },
+          {
+            "name": "Bundle API Components",
+            "href": "https://developer.ordergroove.com/docs/bundle-api-components"
+          },
+          {
+            "name": "Build Your Own Box Subscriptions (Legacy)",
+            "href": "https://developer.ordergroove.com/docs/build-your-own-box-subscriptions"
+          }
+        ]
+      },
+      {
+        "name": "Guided Selling",
+        "href": "https://developer.ordergroove.com/docs/guided-selling",
+        "articles": []
+      },
+      {
+        "name": "Curation Subscriptions: Rotating Box or Club",
+        "href": "https://developer.ordergroove.com/docs/curation-subscriptions-rotating-box-or-club",
+        "articles": []
+      },
+      {
+        "name": "Prepaid Subscriptions",
+        "href": "https://developer.ordergroove.com/docs/how-to-manage-prepaid-renewal-behaviors",
+        "articles": [
+          {
+            "name": "How to Manage Prepaid Renewal Behaviors",
+            "href": "https://developer.ordergroove.com/docs/how-to-manage-prepaid-renewal-behaviors"
+          }
+        ]
+      },
+      {
+        "name": "Rotating Subscriptions",
+        "href": "https://developer.ordergroove.com/docs/rotating-subscriptions",
+        "articles": [
+          {
+            "name": "Ordinal Based Rotating Products",
+            "href": "https://developer.ordergroove.com/docs/ordinal-based-rotating-products"
+          },
+          {
+            "name": "Time Window Based Rotating Products",
+            "href": "https://developer.ordergroove.com/docs/time-window-based-rotating-products"
+          }
+        ]
+      },
+      {
+        "name": "Digital Subscriptions",
+        "href": "https://developer.ordergroove.com/docs/digital-subscriptions",
+        "articles": []
+      }
+    ]
+  },
+  {
+    "name": "program data",
+    "sections": [
+      {
+        "name": "Configuring PayPal",
+        "href": "https://developer.ordergroove.com/docs/configuring-paypal",
+        "articles": []
+      },
+      {
+        "name": "Removing Ordergroove code from your Shopify theme",
+        "href": "https://developer.ordergroove.com/docs/removing-ordergroove-code-from-your-shopify-theme",
+        "articles": []
+      },
+      {
+        "name": "Webhooks overview (Legacy)",
+        "href": "https://developer.ordergroove.com/docs/via-webhooks",
+        "articles": [
+          {
+            "name": "Configure Webhooks via API",
+            "href": "https://developer.ordergroove.com/docs/configure-webhooks-via-api"
+          },
+          {
+            "name": "Expiring or Termed Subscriptions Using Webhooks",
+            "href": "https://developer.ordergroove.com/docs/expiring-or-termed-subscriptions-using-webhooks"
+          }
+        ]
+      },
+      {
+        "name": "HMAC and AES Authentication",
+        "href": "https://developer.ordergroove.com/docs/hmac-and-aes-authentication",
+        "articles": []
+      }
+    ]
+  }
+]

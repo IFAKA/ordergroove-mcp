@@ -1,0 +1,44 @@
+{
+  "name": "ordergroove-mcp",
+  "version": "0.1.0",
+  "private": false,
+  "bin": {
+    "ordergroove-mcp": "tools/server.js",
+    "ordergroove-mcp-http": "server-http.ts"
+  },
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --loader ts-node/esm server.ts",
+    "start:http": "node --loader ts-node/esm server-http.ts",
+    "test:run": "node --loader ts-node/esm server.ts",
+    "build": "tsc server.ts --outDir dist --target es2022 --module esnext --moduleResolution node",
+    "dev": "tsx server.ts",
+    "dev:http": "tsx server-http.ts",
+    "index:html": "node tools/build-index.js",
+    "index:md": "node tools/build-index-md.cjs",
+    "parity": "node tools/check-parity.cjs",
+    "convert:html-to-md": "node tools/convert-html-to-md.cjs",
+    "convert:all-to-md": "node tools/convert-all-to-md.cjs",
+    "setup": "./setup.sh",
+    "install:global": "./install.sh",
+    "configure:cursor": "./configure-cursor.sh",
+    "test": "./examples/scripts/test-integration.sh",
+    "quick-setup": "cd examples/scripts && ./quick-setup.sh",
+    "update-index": "npm run index:md",
+    "clean": "rm -rf data/index/*.json data/index/*.jsonl",
+    "reset": "npm run clean && npm run index:md"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "cheerio": "1.0.0-rc.12",
+    "minisearch": "^7.1.0",
+    "turndown": "^7.2.0",
+    "zod": "^3.25.76"
+  }
+}
